@@ -23,7 +23,7 @@ namespace BindingToList
             lm.Add(new Man("Petia", 18));
             lm.Add(new Man("Kirill", 19));
 
-            
+            //
             bindingsComboBox.DataSource = lm;
             bindingsComboBox.DisplayMember = "Name";
             bindingsComboBox.ValueMember = "Id";
